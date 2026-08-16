@@ -1,13 +1,17 @@
+<div align="center">
+  <img src="github_welcome_animation.gif" width="850" alt="Welcome Animation">
+</div>
+
+<br>
+
 <table>
   <tr>
-    <!-- SOL TARAF: Bilgiler ve Karşılama -->
-    <td width="55%" align="left">
-      <h1>👋 Welcome to My Profile</h1>
+    <td width="55%" align="left" valign="middle">
       <h2>Ayberk Tuncel</h2>
       <p><b>Electrical & Electronics Engineering | Control Systems & Automation</b></p>
       <p><i>Dedicated to designing robust control architectures and developing advanced engineering software solutions.</i></p>
       <p>
-        <a href="https://www.linkedin.com/in/ayberk-tuncel/"><b>LinkedIn Profilim</b></a>
+        <a href="https://www.linkedin.com/in/ayberk-tuncel/"><b>LinkedIn Profile</b></a>
       </p>
       <p>
         <code>MATLAB</code> &bull; 
@@ -17,10 +21,8 @@
         <code>C++</code>
       </p>
     </td>
-    
-    <!-- SAĞ TARAF: Animasyon (Görsel) -->
-    <td width="45%" align="center">
-      <img src="animasyon.gif" width="100%" alt="Tech Animation">
+    <td width="45%" align="center" valign="middle">
+      <img src="animasyon.gif" width="100%" alt="Turbofan Animation">
     </td>
   </tr>
 </table>
