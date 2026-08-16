@@ -1,7 +1,7 @@
 <div align="center">
 
-  <!-- Dynamic Tech Animation -->
-  <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExeG1lOGtzcHJhaHp3dXc0bnNhbGJtZDZxdWx1b3E3N2Y3YmFsbjQ3YSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3ov9k25mKIQYteh3Gg/giphy.gif" width="550" alt="Tech Animation">
+  <!-- Animasyon (Depoya yüklediğin animasyon.gif dosyasından çeker) -->
+  <img src="animasyon.gif" width="550" alt="Tech Animation">
 
   <br>
 
@@ -10,13 +10,18 @@
 
   <p>Dedicated to designing robust control architectures and developing advanced engineering software solutions.</p>
 
-  <br>
+  <!-- LinkedIn Bağlantısı -->
+  <a href="https://www.linkedin.com/in/ayberk-tuncel/">
+    <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn">
+  </a>
 
-  <!-- Professional Tech Stack Badges -->
+  <br><br>
+
+  <!-- Profesyonel Yetenekler ve Logolar -->
   <p>
-    <img src="https://img.shields.io/badge/MATLAB-%23ED1C24.svg?style=flat-square&logo=matlab&logoColor=white" alt="MATLAB">
-    <img src="https://img.shields.io/badge/Simulink-%230076A8.svg?style=flat-square&logo=simulink&logoColor=white" alt="Simulink">
-    <img src="https://img.shields.io/badge/Stateflow-%230076A8.svg?style=flat-square&logo=stateflow&logoColor=white" alt="Stateflow">
+    <img src="https://img.shields.io/badge/MATLAB-%23ED1C24.svg?style=flat-square&logo=mathworks&logoColor=white" alt="MATLAB">
+    <img src="https://img.shields.io/badge/Simulink-%230076A8.svg?style=flat-square&logo=mathworks&logoColor=white" alt="Simulink">
+    <img src="https://img.shields.io/badge/Stateflow-%230076A8.svg?style=flat-square&logo=mathworks&logoColor=white" alt="Stateflow">
     <img src="https://img.shields.io/badge/Python-%233776AB.svg?style=flat-square&logo=python&logoColor=white" alt="Python">
     <img src="https://img.shields.io/badge/C++-%2300599C.svg?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++">
   </p>
