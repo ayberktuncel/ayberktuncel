@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="github_welcome_animation.gif" width="850" alt="Welcome Animation">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=3B82F6&center=true&vCenter=true&width=750&lines=Welcome+to+My+Profile!;Electrical+%26+Electronics+Engineer;Control+Systems+%26+Automation+Enthusiast" alt="Typing SVG">
 </div>
 
 <br>
