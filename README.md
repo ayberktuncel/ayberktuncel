@@ -1,7 +1,8 @@
 <div align="center">
 
-  <!-- Control System Animation -->
-  <img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/PID_Compensation_Animated.gif" width="550" alt="Control System Animation">
+  <!-- Dynamic Tech Animation -->
+  <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExeG1lOGtzcHJhaHp3dXc0bnNhbGJtZDZxdWx1b3E3N2Y3YmFsbjQ3YSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3ov9k25mKIQYteh3Gg/giphy.gif" width="550" alt="Tech Animation">
+
   <br>
 
   <h1>Ayberk Tuncel</h1>
@@ -38,17 +39,3 @@ I specialize in modern control engineering, dynamic system simulation, and algor
 *(Below you will find my pinned projects, showcasing applied engineering methodologies and technical problem-solving capabilities.)*
 
 <br>
-<!--
-**ayberktuncel/ayberktuncel** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
