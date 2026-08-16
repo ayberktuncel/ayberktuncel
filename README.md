@@ -2,7 +2,6 @@
 
   <!-- Control System Animation -->
   <img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/PID_Compensation_Animated.gif" width="550" alt="Control System Animation">
-
   <br>
 
   <h1>Ayberk Tuncel</h1>
