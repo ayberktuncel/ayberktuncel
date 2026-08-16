@@ -1,87 +1,39 @@
-<div align="center">
-
-  <!-- Engineering / Engine Animation -->
-  <img src="animasyon.gif" width="300" alt="Engineering Animation">
-
-  <h1>Ayberk Tuncel</h1>
-
-  <p>
-    <b>Electrical & Electronics Engineering</b>
-    <br>
-    <b>Control Systems & Automation</b>
-  </p>
-
-  <p>
-    <i>
-      Designing robust control architectures, modeling dynamic systems,
-      and turning engineering concepts into practical software solutions.
-    </i>
-  </p>
-
-  <br>
-
-  <!-- Social -->
-  <a href="https://www.linkedin.com/in/ayberk-tuncel/">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn">
-  </a>
-
-  &nbsp;
-
-  <a href="https://github.com/ayberktuncel">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" alt="GitHub">
-  </a>
-
-  <br><br>
-
-  <!-- Technologies -->
-  <img src="https://img.shields.io/badge/MATLAB-0076A8?style=flat&logo=mathworks&logoColor=white" alt="MATLAB">
-  <img src="https://img.shields.io/badge/Simulink-0076A8?style=flat&logo=mathworks&logoColor=white" alt="Simulink">
-  <img src="https://img.shields.io/badge/Stateflow-0076A8?style=flat&logo=mathworks&logoColor=white" alt="Stateflow">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white" alt="C++">
-
-</div>
+<table>
+  <tr>
+    <!-- SOL TARAF: Bilgiler ve Karşılama -->
+    <td width="55%" align="left">
+      <h1>👋 Welcome to My Profile</h1>
+      <h2>Ayberk Tuncel</h2>
+      <p><b>Electrical & Electronics Engineering | Control Systems & Automation</b></p>
+      <p><i>Dedicated to designing robust control architectures and developing advanced engineering software solutions.</i></p>
+      <p>
+        <a href="https://www.linkedin.com/in/ayberk-tuncel/"><b>LinkedIn Profilim</b></a>
+      </p>
+      <p>
+        <code>MATLAB</code> &bull; 
+        <code>Simulink</code> &bull; 
+        <code>Stateflow</code> &bull; 
+        <code>Python</code> &bull; 
+        <code>C++</code>
+      </p>
+    </td>
+    
+    <!-- SAĞ TARAF: Animasyon (Görsel) -->
+    <td width="45%" align="center">
+      <img src="animasyon.gif" width="100%" alt="Tech Animation">
+    </td>
+  </tr>
+</table>
 
 ---
 
-## ⚙️ Professional Focus
+### ⚙️ Professional Focus & Interests
 
-My interests lie at the intersection of **control engineering, dynamic system modeling, and engineering software development**.
-
-### 🎛️ Control Systems
-- Feedback control and dynamic stabilization
-- Linear Quadratic Regulator / Integrator (LQR / LQI)
-- Gain Scheduling
-- Control-oriented mathematical modeling
-
-### 🧩 Model-Based Design
-- MATLAB / Simulink
-- State-space modeling
-- Stateflow finite-state machines
-- Simulation and controller development
-- Model-based engineering workflows
-
-### 💻 Engineering Software
-- Python-based engineering applications
-- Object-oriented programming
-- Data analysis and visualization
-- C++ development for engineering and embedded applications
+I specialize in modern control engineering, dynamic system simulation, and algorithm development. My core technical areas include:
+*   **Control Systems Design:** Implementing advanced strategies such as Linear Quadratic Integrator (LQI) and Gain Scheduling for optimal dynamic stabilization.
+*   **System Modeling & Simulation:** Building robust state-space models and decision-making mechanisms using Simulink and Stateflow FSMs.
+*   **Software Development:** Creating object-oriented programming solutions and automated data analysis interfaces.
 
 ---
 
-## 🚀 What I Like Building
-
-I enjoy projects where **mathematics, software, and physical systems meet**.
-
-```text
-Physical System
-      ↓
-Mathematical Model
-      ↓
-Control Strategy
-      ↓
-Simulation
-      ↓
-Software Implementation
-      ↓
-Testing & Analysis
+### 📂 Featured Repositories
