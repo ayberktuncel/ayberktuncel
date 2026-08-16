@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&duration=3000&pause=1000&color=3B82F6&center=false&vCenter=false&width=800&height=220&lines=%F0%9F%9F%A0+%F0%9F%9F%A1+%F0%9F%9F%A2++systems%40boot%3A+~;%24+.%2Fboot_profile.sh;%3E+initializing+control+modules...;%E2%9C%93+status%3A+ready;WELCOME+TO+MY+PROFILE!" alt="Terminal Typing SVG">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=2500&pause=1000&color=FFFFFF&center=false&vCenter=false&width=800&height=200&lines=%24+.%2Fboot_profile.sh;%3E+initializing+control+modules...;%E2%9C%93+status%3A+ready;WELCOME+TO+MY+PROFILE;EXPLORE+MY+GITHUB+PROFILE" alt="Terminal Typing SVG">
 </div>
 
 <br>
