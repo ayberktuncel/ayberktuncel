@@ -8,17 +8,19 @@
   <tr>
     <td width="55%" align="left" valign="middle">
       <h2>Ayberk Tuncel</h2>
-      <p><b>Electrical & Electronics Engineering | Control Systems & Automation</b></p>
-      <p><i>Dedicated to designing robust control architectures and developing advanced engineering software solutions.</i></p>
+      <p><b>Senior Electrical & Electronics Engineering Student @Ege University</b></p>
+      <p><i>Ex-R&D Intern at TEI (Control Systems Directorate, July - August 2026)</i></p>
       <p>
-        <a href="https://www.linkedin.com/in/ayberk-tuncel/"><b>LinkedIn Profile</b></a>
-      </p>
-      <p>
-        <!-- Devicon Stili İkonlar (Kutucuksuz ve temiz) -->
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matlab/matlab-original.svg" width="40" height="40" title="MATLAB" style="margin: 5px;">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/simulink/simulink-original.svg" width="40" height="40" title="Simulink" style="margin: 5px;">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40" height="40" title="Python" style="margin: 5px;">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="40" height="40" title="C++" style="margin: 5px;">
+        <!-- LinkedIn ve Yazılım İkonları -->
+        <a href="https://www.linkedin.com/in/ayberk-tuncel/">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="36" height="36" title="LinkedIn" style="margin-right: 15px; vertical-align: middle;">
+        </a>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matlab/matlab-original.svg" width="36" height="36" title="MATLAB" style="margin: 5px; vertical-align: middle;">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="36" height="36" title="Python" style="margin: 5px; vertical-align: middle;">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="36" height="36" title="C++" style="margin: 5px; vertical-align: middle;">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/raspberrypi/raspberrypi-original.svg" width="36" height="36" title="Raspberry Pi" style="margin: 5px; vertical-align: middle;">
+        <img src="https://img.shields.io/badge/Simulink-%230076A8.svg?style=for-the-badge&logo=mathworks&logoColor=white" height="28" alt="Simulink" style="vertical-align: middle; margin-right: 5px;">
+        <img src="https://img.shields.io/badge/Stateflow-%230076A8.svg?style=for-the-badge&logo=mathworks&logoColor=white" height="28" alt="Stateflow" style="vertical-align: middle; margin-right: 8px;">
       </p>
     </td>
     <td width="45%" align="center" valign="middle">
