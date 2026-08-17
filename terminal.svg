@@ -6,38 +6,83 @@
     .btn-yellow { fill: #ffbd2e; }
     .btn-green { fill: #27c93f; }
     .title { fill: #8b949e; font-family: 'Consolas', monospace; font-size: 14px; }
-    .prompt { fill: #3fb950; font-family: 'Consolas', monospace; font-size: 16px; font-weight: 900; }
-    .text { fill: #ffffff; font-family: 'Consolas', monospace; font-size: 16px; }
-    .dim { fill: #8b949e; font-family: 'Consolas', monospace; font-size: 16px; }
-    .accent { fill: #58a6ff; font-family: 'Consolas', monospace; font-size: 16px; }
-    .green { fill: #3fb950; font-family: 'Consolas', monospace; font-size: 16px; }
     
-    /* Kalın ve Blocky Welcome Yazısı */
-    .welcome-text { fill: #ffffff; font-family: 'Consolas', 'Courier New', monospace; font-size: 28px; font-weight: 900; letter-spacing: 2px; }
-
-    @keyframes loopAnim {
-      0% { opacity: 0; transform: translateY(6px); }
-      15%, 80% { opacity: 1; transform: translateY(0); }
-      95%, 100% { opacity: 0; transform: translateY(-6px); }
+    .code-text {
+      font-family: 'Consolas', monospace;
+      font-size: 15px;
+      fill: #ffffff;
     }
-    
-    .line1 { animation: loopAnim 7s infinite; animation-delay: 0.3s; }
-    .line2 { animation: loopAnim 7s infinite; animation-delay: 1.2s; }
-    .line3 { animation: loopAnim 7s infinite; animation-delay: 2.1s; }
-    .line4 { animation: loopAnim 7s infinite; animation-delay: 3.0s; }
+
+    /* Büyütülen karşılama yazısı */
+    .welcome-text {
+      font-family: 'Consolas', monospace;
+      font-size: 32px;
+      font-weight: 900;
+      fill: #ffffff;
+      letter-spacing: 1px;
+    }
+
+    /* Harf harf daktilo efekti ve döngü sonunda ekranı komple silme */
+    @keyframes type1 {
+      0% { clip-path: inset(0 100% 0 0); }
+      15%, 85% { clip-path: inset(0 0 0 0); }
+      95%, 100% { clip-path: inset(0 100% 0 0); }
+    }
+
+    @keyframes type2 {
+      0%, 15% { clip-path: inset(0 100% 0 0); }
+      35%, 85% { clip-path: inset(0 0 0 0); }
+      95%, 100% { clip-path: inset(0 100% 0 0); }
+    }
+
+    @keyframes type3 {
+      0%, 35% { clip-path: inset(0 100% 0 0); }
+      55%, 85% { clip-path: inset(0 0 0 0); }
+      95%, 100% { clip-path: inset(0 100% 0 0); }
+    }
+
+    @keyframes type4 {
+      0%, 55% { clip-path: inset(0 100% 0 0); }
+      75%, 85% { clip-path: inset(0 0 0 0); }
+      95%, 100% { clip-path: inset(0 100% 0 0); }
+    }
+
+    .line1 { animation: type1 9s infinite linear; }
+    .line2 { animation: type2 9s infinite linear; }
+    .line3 { animation: type3 9s infinite linear; }
+    .line4 { animation: type4 9s infinite linear; }
   </style>
 
+  <!-- Terminal Pencere Çerçevesi -->
   <rect width="800" height="240" rx="10" class="terminal-bg" stroke="#30363d" stroke-width="1"/>
+  
+  <!-- Üst Bar -->
   <path d="M 0 10 A 10 10 0 0 1 10 0 L 790 0 A 10 10 0 0 1 800 10 L 800 36 L 0 36 Z" class="terminal-header"/>
+  
+  <!-- Kontrol Butonları -->
   <circle cx="24" cy="18" r="6" class="btn-red"/>
   <circle cx="44" cy="18" r="6" class="btn-yellow"/>
   <circle cx="64" cy="18" r="6" class="btn-green"/>
+  
+  <!-- Başlık -->
   <text x="400" y="22" text-anchor="middle" class="title">systems@boot: ~ (@ayberktuncel)</text>
   
+  <!-- Terminal İçeriği -->
   <g transform="translate(30, 70)">
-    <text x="0" y="0" class="line1"><tspan class="prompt">$ </tspan><tspan class="text">./boot_profile.sh --user=ayberktuncel</tspan></text>
-    <text x="0" y="35" class="line2"><tspan class="dim">&gt; loading control systems &amp; automation modules...</tspan></text>
-    <text x="0" y="70" class="line3"><tspan class="green">✓ </tspan><tspan class="accent">status: @ayberktuncel is ready</tspan></text>
-    <text x="0" y="115" class="line4"><tspan class="welcome-text">WELCOME TO MY GITHUB PROFILE</tspan></text>
+    <g class="line1">
+      <text x="0" y="0" class="code-text"><tspan fill="#3fb950" font-weight="bold">$ </tspan>./boot_profile.sh --user=ayberktuncel</text>
+    </g>
+    
+    <g class="line2">
+      <text x="0" y="35" class="code-text" fill="#8b949e">&gt; loading control systems &amp; automation modules...</text>
+    </g>
+    
+    <g class="line3">
+      <text x="0" y="70" class="code-text"><tspan fill="#3fb950">✓ </tspan><tspan fill="#58a6ff">status: @ayberktuncel is ready</tspan></text>
+    </g>
+    
+    <g class="line4">
+      <text x="0" y="125" class="welcome-text">WELCOME TO MY GITHUB PROFILE</text>
+    </g>
   </g>
 </svg>
