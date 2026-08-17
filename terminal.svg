@@ -5,53 +5,39 @@
     .btn-red { fill: #ff5f56; }
     .btn-yellow { fill: #ffbd2e; }
     .btn-green { fill: #27c93f; }
-    .title { fill: #8b949e; font-family: monospace; font-size: 13px; }
-    .prompt { fill: #3fb950; font-family: monospace; font-size: 15px; font-weight: bold; }
-    .text { fill: #ffffff; font-family: monospace; font-size: 15px; }
-    .dim { fill: #8b949e; font-family: monospace; font-size: 15px; }
-    .accent { fill: #58a6ff; font-family: monospace; font-size: 15px; }
+    .title { fill: #8b949e; font-family: 'Consolas', monospace; font-size: 14px; }
+    .prompt { fill: #3fb950; font-family: 'Consolas', monospace; font-size: 16px; font-weight: 900; }
+    .text { fill: #ffffff; font-family: 'Consolas', monospace; font-size: 16px; }
+    .dim { fill: #8b949e; font-family: 'Consolas', monospace; font-size: 16px; }
+    .accent { fill: #58a6ff; font-family: 'Consolas', monospace; font-size: 16px; }
+    .green { fill: #3fb950; font-family: 'Consolas', monospace; font-size: 16px; }
     
-    @keyframes fadeIn {
-      0% { opacity: 0; transform: translateY(5px); }
-      100% { opacity: 1; transform: translateY(0); }
+    /* Kalın ve Blocky Welcome Yazısı */
+    .welcome-text { fill: #ffffff; font-family: 'Consolas', 'Courier New', monospace; font-size: 28px; font-weight: 900; letter-spacing: 2px; }
+
+    @keyframes loopAnim {
+      0% { opacity: 0; transform: translateY(6px); }
+      15%, 80% { opacity: 1; transform: translateY(0); }
+      95%, 100% { opacity: 0; transform: translateY(-6px); }
     }
     
-    .line1 { animation: fadeIn 0.5s ease-out 0.2s forwards; opacity: 0; }
-    .line2 { animation: fadeIn 0.5s ease-out 0.8s forwards; opacity: 0; }
-    .line3 { animation: fadeIn 0.5s ease-out 1.4s forwards; opacity: 0; }
-    .line4 { animation: fadeIn 0.5s ease-out 2.0s forwards; opacity: 0; }
+    .line1 { animation: loopAnim 7s infinite; animation-delay: 0.3s; }
+    .line2 { animation: loopAnim 7s infinite; animation-delay: 1.2s; }
+    .line3 { animation: loopAnim 7s infinite; animation-delay: 2.1s; }
+    .line4 { animation: loopAnim 7s infinite; animation-delay: 3.0s; }
   </style>
 
-  <!-- Terminal Window Frame -->
   <rect width="800" height="240" rx="10" class="terminal-bg" stroke="#30363d" stroke-width="1"/>
-  
-  <!-- Header Bar -->
   <path d="M 0 10 A 10 10 0 0 1 10 0 L 790 0 A 10 10 0 0 1 800 10 L 800 36 L 0 36 Z" class="terminal-header"/>
-  
-  <!-- Window Control Buttons -->
   <circle cx="24" cy="18" r="6" class="btn-red"/>
   <circle cx="44" cy="18" r="6" class="btn-yellow"/>
   <circle cx="64" cy="18" r="6" class="btn-green"/>
+  <text x="400" y="22" text-anchor="middle" class="title">systems@boot: ~ (@ayberktuncel)</text>
   
-  <!-- Title -->
-  <text x="400" y="22" text-anchor="middle" class="title">systems@boot: ~</text>
-  
-  <!-- Terminal Body Content -->
   <g transform="translate(30, 70)">
-    <text x="0" y="0" class="line1">
-      <tspan class="prompt">$ </tspan><tspan class="text">./boot_profile.sh</tspan>
-    </text>
-    
-    <text x="0" y="35" class="line2">
-      <tspan class="dim">&gt; initializing control modules...</tspan>
-    </text>
-    
-    <text x="0" y="70" class="line3">
-      <tspan class="green">✓ </tspan><tspan class="accent">status: ready</tspan>
-    </text>
-    
-    <text x="0" y="115" class="line4">
-      <tspan class="text" font-weight="bold" font-size="18" fill="#ffffff">WELCOME TO MY GITHUB PROFILE</tspan>
-    </text>
+    <text x="0" y="0" class="line1"><tspan class="prompt">$ </tspan><tspan class="text">./boot_profile.sh --user=ayberktuncel</tspan></text>
+    <text x="0" y="35" class="line2"><tspan class="dim">&gt; loading control systems &amp; automation modules...</tspan></text>
+    <text x="0" y="70" class="line3"><tspan class="green">✓ </tspan><tspan class="accent">status: @ayberktuncel is ready</tspan></text>
+    <text x="0" y="115" class="line4"><tspan class="welcome-text">WELCOME TO MY GITHUB PROFILE</tspan></text>
   </g>
 </svg>
