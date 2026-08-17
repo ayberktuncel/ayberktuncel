@@ -14,11 +14,11 @@
         <a href="https://www.linkedin.com/in/ayberk-tuncel/"><b>LinkedIn Profile</b></a>
       </p>
       <p>
-        <code>MATLAB</code> &bull; 
-        <code>Simulink</code> &bull; 
-        <code>Stateflow</code> &bull; 
-        <code>Python</code> &bull; 
-        <code>C++</code>
+        <!-- Devicon Stili İkonlar (Kutucuksuz ve temiz) -->
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matlab/matlab-original.svg" width="40" height="40" title="MATLAB" style="margin: 5px;">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/simulink/simulink-original.svg" width="40" height="40" title="Simulink" style="margin: 5px;">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40" height="40" title="Python" style="margin: 5px;">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="40" height="40" title="C++" style="margin: 5px;">
       </p>
     </td>
     <td width="45%" align="center" valign="middle">
@@ -37,5 +37,3 @@ I specialize in modern control engineering, dynamic system simulation, and algor
 *   **Software Development:** Creating object-oriented programming solutions and automated data analysis interfaces.
 
 ---
-
-### 📂 Featured Repositories
